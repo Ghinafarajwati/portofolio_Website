@@ -6,7 +6,7 @@ import TabData from "../components/tabData.jsx";
 
 const Educations = () => {
   const [tab, setTab] = useState("educations");
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
     startTransition(() => {

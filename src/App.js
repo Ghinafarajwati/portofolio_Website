@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Navbar from "./components/navbar.jsx";
-import MediaQuery from "./hooks/mediaQuery.jsx";
 import LandingPage from "./pages/landingPage.jsx";
 import Educations from "./pages/educations.jsx";
 import Project from './pages/project.jsx'
@@ -11,8 +10,6 @@ import Footer from "./components/footer.jsx";
 
 function App() {
   const [isTopOfPage, setIsTopOfPage] = useState(true);         //di bagian atas halaman (scrollY === 0) atau tidak.
-  const isAboveMediumScreens = MediaQuery("(min-width: 1060px)");
-
 
   useEffect(() => {
     const handleScroll = () => {
