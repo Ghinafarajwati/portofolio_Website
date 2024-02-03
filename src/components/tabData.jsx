@@ -31,10 +31,10 @@ const TabData = [
             <div className='mt-16 md:mt-0 md:ml-[10rem] ml-[3rem] border-l py-5'>
                 <div className='flex flex-col mb-5 md:ml-[45px]'>
                 <ul>
-                    <a href='https://skilvul.com/challenges/serrum-platform-remedial/student/ckrmt0hmi3zqt0722fdu8jf3i' target='_blank'><li className='text-lg text-white hover:text-yellow'>- Skilvul Bootcamp [Kampus Merdeka]</li></a>
-                    <a href='https://drive.google.com/file/d/1hrkTQl87AlXUyRNEn7cspDYPLF3oFmmd/view?usp=sharing' target='_blank'><li className='text-lg text-white hover:text-yellow'>- Alterra Bootcamp [Kampus Merdeka]</li></a>
-                    <a href='https://drive.google.com/file/d/1_6qIX-9a9SVhcyL4LmuE8gOd8wrSdeK-/view?usp=sharing' target='_blank'><li className='text-lg text-white hover:text-yellow'>- Sanbercode UI/UX</li></a>
-                    <a href='https://drive.google.com/file/d/1_nU32qP6UXRYuqmrN6w-m3kdGO67fQnr/view?usp=sharing' target='_blank'><li className='text-lg text-white hover:text-yellow'>- Inspiration Factory Foundation [Humanitarian organization for children]</li></a>
+                    <a href='https://skilvul.com/challenges/serrum-platform-remedial/student/ckrmt0hmi3zqt0722fdu8jf3i' target='_blank' rel="noreferrer"><li className='text-lg text-white hover:text-yellow'>- Skilvul Bootcamp [Kampus Merdeka]</li></a>
+                    <a href='https://drive.google.com/file/d/1hrkTQl87AlXUyRNEn7cspDYPLF3oFmmd/view?usp=sharing' target='_blank' rel="noreferrer"><li className='text-lg text-white hover:text-yellow'>- Alterra Bootcamp [Kampus Merdeka]</li></a>
+                    <a href='https://drive.google.com/file/d/1_6qIX-9a9SVhcyL4LmuE8gOd8wrSdeK-/view?usp=sharing' target='_blank' rel="noreferrer"><li className='text-lg text-white hover:text-yellow'>- Sanbercode UI/UX</li></a>
+                    <a href='https://drive.google.com/file/d/1_nU32qP6UXRYuqmrN6w-m3kdGO67fQnr/view?usp=sharing' target='_blank' rel="noreferrer"><li className='text-lg text-white hover:text-yellow'>- Inspiration Factory Foundation [Humanitarian organization for children]</li></a>
                 </ul>
                 </div>
             </div>
