@@ -48,11 +48,11 @@ const LandingPage = () => {
         <motion.div 
         initial='hidden'
         whileInView= 'visible'
-        viewport={{once: true, amount: 0.5}}
+        viewport={{once: true}}
         transition={{duration: 0.5}}
         variants={{
-          hidden: {opacity: 0, x: -50},
-          visible: {opacity: 1, x: 0}
+          hidden: {opacity: 0, y: -50},
+          visible: {opacity: 1, y: 0}
         }}>
           <p className='text-center md:text-start text-2xl mb-2 xs:relative xs:text-gray-500 xs:font-semibold hover:text-yellow transition duration-500'>Hi, my name's</p>
           <p className="text-6xl font-semibold z-10 text-center md:text-start">
