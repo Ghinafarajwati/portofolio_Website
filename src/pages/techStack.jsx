@@ -23,7 +23,7 @@ const Tech = () => {
             <div className='grid xl:grid-cols-10 md:grid-cols-7 xs:grid-cols-7 gap-6 text-center py-8 px-12 sm:px-0 mx-[6rem]'>
             {TechData.slice(1,12).map(({id, image, title}) => (
                 <div key={id} className='hover:scale-105'>
-                <img src={image}></img>
+                <img src={image} alt='tech'></img>
                 <p>{title}</p>
               </div>
             ))}
@@ -34,7 +34,7 @@ const Tech = () => {
             <div className='grid xl:grid-cols-10 md:grid-cols-7 xs:grid-cols-7 gap-6 text-center py-8 px-12 sm:px-0 mx-[5rem] mt-[-1rem]'>
             {TechData.slice(12,15).map(({id, image, title}) => (
                 <div key={id} className='hover:scale-105'>
-                <img src={image}></img>
+                <img src={image} alt='others'></img>
                 <p>{title}</p>
               </div>
             ))}

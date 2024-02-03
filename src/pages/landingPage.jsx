@@ -61,7 +61,11 @@ const LandingPage = () => {
             Faraj</span>
           </p>
 
-          <p className="mt-10 mb-7 text-lg text-center md:text-start md:mr-[-5rem]"><span className='text-3xl'>I’m a Frontend Developer,</span><br/> <div className='mt-2'>I'm also an enthusiastic learner, committed to Enhancing User Interfaces 🚀 and Facilitating Collaborative Development through Robust Coding Practices 🧩.</div></p>
+          <p className="mt-10 mb-7 text-lg text-center md:text-start md:mr-[-5rem]">
+            <span className='text-3xl'>I’m a Frontend Developer,</span><br/> 
+            <span className='mt-2'>I'm also an enthusiastic learner, committed to Enhancing User Interfaces 🚀 and Facilitating Collaborative Development through Robust Coding Practices 🧩.</span>
+          </p>
+
         </motion.div>
 
         <div>
@@ -79,7 +83,7 @@ const LandingPage = () => {
            visible: { opacity: 1, x: 0 },
          }}>
 
-        <a href="mailto:farajwati.ghina@gmail.com" target='_blank' className="bg-gradient-rainblue rounded-full py-3 px-[30px] border-b border-white font-semibold hover:text-black">
+        <a href="mailto:farajwati.ghina@gmail.com" target='_blank' rel="noreferrer" className="bg-gradient-rainblue rounded-full py-3 px-[30px] border-b border-white font-semibold hover:text-black">
           Hire Me <span className='ml-3'><FontAwesomeIcon icon={faArrowRight}/></span>
         </a>
         </motion.div>

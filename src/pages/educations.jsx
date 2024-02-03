@@ -3,10 +3,8 @@ import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation' 
 import TabButton from '../components/tabButton.jsx'
 import TabData from "../components/tabData.jsx";
-import MediaQuery from '../hooks/mediaQuery.jsx'
 
 const Educations = () => {
-  const isAboveLarge = MediaQuery("(min-width: 1060px)");
   const [tab, setTab] = useState("educations");
   const [isPending, startTransition] = useTransition();
 
