@@ -12,8 +12,8 @@ const Tech = () => {
           viewport={{once: true, amount: 0.5}}
           transition={{duration: 0.5}}
           variants={{
-            hidden: {opacity: 0, y: -50},
-            visible: {opacity: 1, y: 0},
+            hidden: {opacity: 0, x: -50},
+            visible: {opacity: 1, x: 0},
           }}>
             <h2 className='text-center text-4xl font-bold text-white mt-14'>Tech Stack</h2>
             <p className='text-center text-mg text-white mt-5'>Here are some skills I have diligently cultivated in the process of acquiring proficiency in programming.</p>

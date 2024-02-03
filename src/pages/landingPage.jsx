@@ -56,7 +56,7 @@ const LandingPage = () => {
         }}>
           <p className='text-center md:text-start text-2xl mb-2 xs:relative xs:text-gray-500 xs:font-semibold hover:text-yellow transition duration-500'>Hi, my name's</p>
           <p className="text-6xl font-semibold z-10 text-center md:text-start">
-            Ghina {""} 
+            Ghinnnn {""} 
             <span className="xs:relative xs:text-gray-500 xs:font-semibold hover:text-yellow transition duration-500">
             Faraj</span>
           </p>
