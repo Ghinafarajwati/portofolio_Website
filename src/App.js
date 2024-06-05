@@ -37,7 +37,7 @@ function App() {
         </motion.div>
       </div>
 
-      <div className="w-5/6 mx-auto mt-[1rem] md:h-full">
+      <div className="w-5/6 mx-auto md:mt-[-8rem] mt-[1rem] md:h-full ">
       <LineGardient/>
       <motion.div
         margin="0 0 -200px 0"
@@ -48,7 +48,7 @@ function App() {
       </motion.div>
       </div>
 
-      <div className="w-5/6 mx-auto mt-[1rem] md:h-full xl:mt-[-18rem]">
+      <div className="w-5/6 mx-auto md:mt-[-8rem] mt-[1rem] md:h-full xl:mt-[-18rem]">
       <LineGardient/>
       <motion.div
         margin="0 0 -200px 0"
@@ -59,7 +59,7 @@ function App() {
       </motion.div>
       </div>
 
-      <div className="w-5/6 mx-auto md:mt-[15rem] xl:mt-[-10rem]">
+      <div className="w-5/6 mx-auto mt-[1rem] xl:mt-[-10rem]">
       <motion.div
         margin="0 0 -200px 0"
         amount="all"
