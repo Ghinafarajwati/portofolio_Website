@@ -40,7 +40,7 @@ const Project = () => {
         isSelected={tag === "Web"}
         />
         </div>
-        <div className='grid md:grid-cols-3 gap-8 md:gap-5 md:mb-[10rem] mb-[3rem]'>
+        <div className='grid md:grid-cols-3 gap-8 md:gap-5 md:mb-[1rem] mb-[3rem]'>
           {filteredProjects.map((project) => (
           <ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} previewUrl={project.previewUrl}></ProjectCard>
         ))}

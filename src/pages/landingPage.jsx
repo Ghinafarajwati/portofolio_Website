@@ -13,7 +13,7 @@ const LandingPage = () => {
       
       {/* IMAGE SECTION */}
       
-      <div className="basis-3/5 z-10 mt-16 md:mt-40 flex justify-center md:order-2 ">
+      <div className="basis-3/5 z-10 mt-16 md:mt-[13rem] flex justify-center md:order-2 ">
       <motion.div 
         initial='hidden'
         whileInView= 'visible'
