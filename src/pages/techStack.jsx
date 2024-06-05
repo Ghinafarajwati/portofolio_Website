@@ -20,7 +20,7 @@ const Tech = () => {
           <div className='flex flex-row md:justify-start'>
           </div>
           <div className='grid xl:grid-cols-9 md:grid-cols-8 xs:grid-cols-7 gap-6 text-center py-8 px-12 xl:mx-[8rem] sm:px-0 md:mx-7 mx-[5rem]'>
-            {TechData.slice(1, 12).map(({ id, image, title }) => (
+            {TechData.slice(0, 12).map(({ id, image, title }) => (
               <div key={id} className='hover:scale-105'>
                 <img src={image} alt='tech'></img>
                 <p>{title}</p>

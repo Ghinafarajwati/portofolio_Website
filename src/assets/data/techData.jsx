@@ -13,7 +13,7 @@ export const techData = [
      {
         id: 3,
         image: '/assets/js.png',
-        title: 'HTML',
+        title: 'JAVASCRIPT',
      },
      {
         id: 4,

@@ -18,7 +18,7 @@ const socialMedia = [
         child: (
             <>Github <FontAwesomeIcon icon={faGithub}/></>
         ),
-        href: 'https://www.linkedin.com',
+        href: 'https://github.com/Ghinafarajwati',
         style: 'rounded-tr-md'
     },
     {
@@ -34,7 +34,7 @@ const socialMedia = [
         child: (
             <>Instagram <FontAwesomeIcon icon={faInstagram}/></>
         ),
-        href: 'https://www.linkedin.com',
+        href: 'https://www.instagram.com/ghin.far?igsh=MXg5aWZ1bWtvZnV1ag%3D%3D&utm_source=qr',
         style: 'rounded-tr-md'
     },
     {

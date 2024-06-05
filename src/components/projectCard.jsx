@@ -9,7 +9,7 @@ const ProjectCard = ({imgUrl, title, description}) => {
       <div className='text-white rounded-b-xl bg-[#181818] py-6 px-4'>
         <h4 className='text-xl font-semibold mb-2'>{title}</h4>
         <p className='text-[#ADB7BE] mb-2'>{description}</p>
-        <button className='px-4 py-2 border border-white rounded-full'>Live Site</button>
+        {/* <button className='px-4 py-2 border border-white rounded-full'>Live Site</button> */}
       </div>
     </div>
   )
