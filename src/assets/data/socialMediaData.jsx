@@ -10,7 +10,7 @@ const socialMedia = [
         child: (
             <>Linkedin <FontAwesomeIcon icon={faLinkedinIn}/></>
         ),
-        href: 'https://www.linkedin.com',
+        href: 'linkedin.com/in/ghina-faraj-4a2477237',
         style: 'rounded-tr-md'
     },
     {
