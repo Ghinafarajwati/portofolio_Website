@@ -18,7 +18,6 @@ const Tech = () => {
           <h2 className='text-center text-4xl font-bold text-white mt-14'>Tech Stack</h2>
           <p className='text-center text-mg text-white mt-5'>Here are some skills I have diligently cultivated in the process of acquiring proficiency in programming.</p>
           <div className='flex flex-row md:justify-start'>
-            <span className='md:text-start text-center text-xl md:mx-5 mx-[7rem] mt-[2rem] md:ml-6 md:mt-2 border-b border-blue md:mt-[1rem] xl:ml-[8rem]'>TECH SKILLS</span>
           </div>
           <div className='grid xl:grid-cols-9 md:grid-cols-8 xs:grid-cols-7 gap-6 text-center py-8 px-12 xl:mx-[8rem] sm:px-0 md:mx-7 mx-[5rem]'>
             {TechData.slice(1, 12).map(({ id, image, title }) => (
