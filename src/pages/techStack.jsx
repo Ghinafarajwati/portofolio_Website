@@ -15,7 +15,7 @@ const Tech = () => {
           hidden: {opacity: 0, y: -50},
           visible: {opacity: 1, y: 0},
         }}>
-          <h2 className='text-center text-4xl font-bold text-white md:mt-[-3rem]'>Tech Stack</h2>
+          <h2 className='text-center text-4xl font-bold text-white md:mt-[-3rem] lg:mt-[-15rem]'>Tech Stack</h2>
           <p className='text-center text-mg text-white mt-5'>Here are some skills I have diligently cultivated in the process of acquiring proficiency in programming.</p>
           <div className='flex flex-row md:justify-start'>
           </div>
